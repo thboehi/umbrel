@@ -87,7 +87,7 @@ fi
 # then
 #   UMBREL_VERSION="$(echo "${arguments}" | sed 's/.*--version \([^ ]*\).*/\1/')"
 # fi
-UMBREL_VERSION="v0.5.4"
+UMBREL_VERSION="v1.1.1"
 
 if [[ "${arguments}" = *"--install-path"* ]]
 then
